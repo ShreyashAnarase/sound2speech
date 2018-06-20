@@ -15,3 +15,8 @@ Also if you don’t have pyaudio installed :
 sudo apt-get install portaudio19-dev
 
 pip3 install --allow-unverified=pyaudio pyaudio
+
+
+
+
+credits : Umang Ahuja's blog
