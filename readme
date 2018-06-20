@@ -1,0 +1,17 @@
+**only if you get error on running pip3 install SpeechRecognition **
+
+You may need to make changes in line 11 in bin/pip
+
+to avoid ImportError: cannot import name 'main'
+
+so make a virtual environment and change the bin/pip file in it. NOT recommended to change the usr/bin/pip
+
+change from : sys.exit(main())
+
+to : sys.exit(_main())
+
+Also if you don’t have pyaudio installed :
+
+sudo apt-get install portaudio19-dev
+
+pip3 install --allow-unverified=pyaudio pyaudio
